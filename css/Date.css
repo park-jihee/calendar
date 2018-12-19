@@ -1,0 +1,40 @@
+#calendar_wrap{
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+caption{
+    font-size: 1.5em;
+    color: royalblue; padding: 10px;
+    font-weight: bold;
+}
+
+table, th, td{
+    color: gray; 
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+}
+th, td{
+    width: 30px;
+    padding: 10px;
+}
+
+th:first-child, td:first-child{
+    color: black;
+}
+
+th:last-child, td:last-child{
+    color: black;
+}
+
+#prev, #next{
+    text-decoration: none;
+    color: royalblue;
+    padding: 5px;
+    font-weight: bold;
+}
